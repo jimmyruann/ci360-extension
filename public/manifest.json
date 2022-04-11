@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Dynatrace ci360 Extension (D1)",
+	"description": "Mainly to pull data out from ci360",
+	"version": "1.0.0",
+	"author": "Jimmy Ruan",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_icon": { "16": "assets/icon16.png", "48": "assets/icon48.png", "128": "assets/icon128.png" },
+		"default_title": "Click Me",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["tabs", "activeTab", "scripting"],
+	"host_permissions": ["https://ci360.dynatrace.com/", "*://*/*"]
+}
