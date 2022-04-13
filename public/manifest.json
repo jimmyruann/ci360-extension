@@ -13,5 +13,5 @@
 		"default_popup": "popup.html"
 	},
 	"permissions": ["tabs", "activeTab", "scripting"],
-	"host_permissions": ["https://ci360.dynatrace.com/", "*://*/*"]
+	"host_permissions": ["https://ci360.dynatrace.com/"]
 }
