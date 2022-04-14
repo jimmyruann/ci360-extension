@@ -3,12 +3,12 @@ import Home from "./components/home";
 import Second from "./components/second";
 
 export const appRoutes: RouteObject[] = [
-	{
-		path: "/",
-		element: <Home />,
-	},
-	{
-		path: "/second",
-		element: <Second />,
-	},
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/second",
+    element: <Second />,
+  },
 ];
